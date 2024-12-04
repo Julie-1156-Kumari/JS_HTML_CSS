@@ -6,7 +6,7 @@ for(let i=0; i<cards.length; i++){
 
         if(color != "used"){
             currColor.classList.add(color);
-            currColor.setAttribute("data-used", "used");
+            currColor.setAttribute("data-color", "used");
         }
     });
 }
