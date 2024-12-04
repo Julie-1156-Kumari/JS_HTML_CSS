@@ -1,0 +1,17 @@
+.cell {
+    border: 1px solid;
+    margin: auto;
+    margin-top: 10rem;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+}
+
+.in-box {
+    background-image: url("./sources/jail.jpg");
+    background-size: "cover";
+  }
+
+  .out-box {
+    background-image: none;
+  }
