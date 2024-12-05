@@ -1,0 +1,18 @@
+#doubleHolder{
+   
+    margin: 1px;
+    border: 1px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.double{
+    background-color: greenyellow;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: medium;
+    height: 30px;
+    width: 65px;
+    border-radius: 30%;
+}
