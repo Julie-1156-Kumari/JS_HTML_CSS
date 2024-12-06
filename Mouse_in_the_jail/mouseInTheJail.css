@@ -1,17 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  cursor: none; /* Hide the default cursor */
+  /* overflow: hidden; */ /* Prevent scrollbars */
+  background-color: #3f844e; /* Light background for better visibility */
+
+}
+
+#mouse-pointer {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  pointer-events: none; /* Make sure it doesn't block interactions */
+  background-image: url('./sources/mouse.jpg'); /* Replace 'mouse.png' with your mouse image */
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  transform: translate(-50%, -50%); /* Center the image around the cursor */
+}
+
 .cell {
+    
     border: 1px solid;
     margin: auto;
     margin-top: 10rem;
     height: 20rem;
     width: 20rem;
     display: flex;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    border: 1px solid black;
+    background-color: lightgray;
+    background-size: cover;
 }
 
 .in-box {
     background-image: url("./sources/jail.jpg");
-    background-size: "cover";
+    background-size: cover;
   }
 
   .out-box {
     background-image: none;
   }
+
+  
