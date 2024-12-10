@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .container {
+    margin-left: calc(50% - 32vw);
+    border: 5px solid black;
+    border-radius: 10% 10%;
+    height: 35rem;
+    width: 50rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  button{
+    font-size: large;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 8rem;
+    height: 5rem;
+    border: 5px solid black;
+    border-radius: 30% 30%;
+  }
+
+  .red{
+    
+    background-color: #bc4444;
+  }
+
+  .green{
+    
+    background-color: lightgreen;
+  }
+
+  .blue{
+    
+    background-color: lightblue;
+  }
+ 
+
+  .container>button:hover{
+    cursor: pointer;
+  }
